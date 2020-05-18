@@ -1,0 +1,16 @@
+{
+  "name": "camilo-gov-api",
+  "version": "1.0.0",
+  "description": "REST API Camilo Government",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodejs server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Camilo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.2.0"
+  }
+}
