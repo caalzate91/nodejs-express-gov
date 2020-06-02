@@ -7,7 +7,7 @@ steps:
   args: ['push', 'gcr.io/java-cloud-162001/github.com/caalzate91/nodejs-express-gov']
   # deploy container image to Cloud Run
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['beta', 'run', 'deploy', 'nodejs-express-gov', '--image', 'gcr.io/java-cloud-162001/github.com/caalzate91/nodejs-express-gov:${SHORT_SHA}','--region', ''us-central1', '--allow-unauthenticated']
+  args: ['beta', 'run', 'deploy', 'nodejs-express-gov', '--image', 'gcr.io/java-cloud-162001/github.com/caalzate91/nodejs-express-gov:${SHORT_SHA}','--region', 'us-central1', '--allow-unauthenticated']
   env:
   - 'PORT=8080'
 images:
