@@ -142,5 +142,5 @@ app.delete("/api/opportunity/:id", (req, res, next) => {
 
 // Root path
 app.get("/", (req, res, next) => {
-    res.json({"message":"Hola a toodos desde PionerasDev!"})
+    res.json({"message":"Hola a toodos :D !"})
 })
